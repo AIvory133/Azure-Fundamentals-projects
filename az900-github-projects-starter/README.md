@@ -8,12 +8,12 @@ This repo contains hands-on labs that map to AZ-900 objectives. Each lab has:
 > Prereqs: Azure account (free tier ok), Azure CLI, Git, and a GitHub account.
 
 ## Labs
-1. `vm-webserver-lab` — VM + NSG + Nginx web server (IaaS).
-2. `storage-static-site` — Azure Storage static website + SAS.
-3. `appservice-sql` — App Service (Linux) + sample Node app + Azure SQL (PaaS).
+1. `appservice-sql` — App Service (Linux) + sample Node app + Azure SQL (PaaS).
+2. `cost-management` — Pricing Calculator, budgets, and tags (guide).
+3. `networking-mini-lab` — Two subnets, two VMs, NSGs (VNet basics).
 4. `rbac-policy` — RBAC role assignment + Azure Policy restriction.
-5. `cost-management` — Pricing Calculator, budgets, and tags (guide).
-6. `networking-mini-lab` — Two subnets, two VMs, NSGs (VNet basics).
+5. `storage-static-site` — Azure Storage static website + SAS.
+6. `vm-webserver-lab` — VM + NSG + Nginx web server (IaaS).
 
 ## Quick Start
 ```bash
