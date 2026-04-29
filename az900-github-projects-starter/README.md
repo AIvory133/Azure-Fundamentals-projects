@@ -1,4 +1,4 @@
-# AZ-900 Projects Starter
+# Azure Fundamentals Projects Starter
 
 This repo contains hands-on labs that map to AZ-900 objectives. Each lab has:
 - **Scripts** to deploy resources (Azure CLI).
