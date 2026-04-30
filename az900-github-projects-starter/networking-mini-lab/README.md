@@ -1,4 +1,4 @@
-# 🌐 Networking Mini-Lab (VNet, Subnets, NSGs)
+#  Networking Mini-Lab (VNet, Subnets, NSGs)
 
 [![Azure](https://img.shields.io/badge/Azure-CLI-blue?logo=microsoft-azure)](https://learn.microsoft.com/en-us/cli/azure/)
 [![Category](https://img.shields.io/badge/Domain-Networking-orange)]()
@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Goal
+##  Goal
 Deploy a simple Azure networking lab to understand:
 - Subnetting
 - Network Security Group (NSG) scopes
@@ -14,7 +14,7 @@ Deploy a simple Azure networking lab to understand:
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 - **Resource Group:** `rg-networking-mini-lab`  
 - **Virtual Network (VNet):** `vnet-lab (10.10.0.0/16)`  
   - **Frontend Subnet:** `sn-frontend (10.10.1.0/24)`  
@@ -28,7 +28,7 @@ Deploy a simple Azure networking lab to understand:
 
 ---
 
-## 📸 Evidence
+##  Evidence
 
 ### 1. Azure Portal — Resource Group Overview
 Shows all deployed resources: VNet, NSGs, NICs, VMs, and Public IPs.  
@@ -72,13 +72,13 @@ Frontend VM curls backend private IP (10.10.2.4) and receives Nginx HTML.
 
 ---
 
-## ✅ Outcomes
+##  Outcomes
 - Verified frontend VM can reach backend VM over private IP.  
 - Confirmed NSGs restrict backend traffic to **frontend-only**.  
 - Practiced troubleshooting issues like PIP quotas, NIC conflicts, and NSG bindings.  
 
 ---
 
-## 🧹 Cleanup
+##  Cleanup
 ```bash
 az group delete -n rg-networking-mini-lab --yes --no-wait
