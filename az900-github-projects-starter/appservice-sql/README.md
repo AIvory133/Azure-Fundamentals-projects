@@ -13,7 +13,7 @@
 - App settings and deployment methods (zip deploy).
 - Basic database provisioning and firewall rules.
 
-## 📸 Screenshots
+##  Screenshots
 
 ### 1) Setup
 ![Setup](./screenshots/Setup.png)
