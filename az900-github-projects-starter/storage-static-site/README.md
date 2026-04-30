@@ -1,15 +1,15 @@
-# 🚀 Storage Static Website Lab (PaaS Storage)
+#  Storage Static Website Lab (PaaS Storage)
 
 
 
 ---
 
-## 🎯 Goal
+##  Goal
 Deploy and host a **static website** from an **Azure Storage account** and practice using **Shared Access Signatures (SAS)** for secure, time-limited access.
 
 ---
 
-## ✅ Outcomes
+##  Outcomes
 By completing this lab, you will:
 - Provision a **StorageV2 account** in an allowed region (`eastus2`).
 - Enable **Static Website** hosting on Azure Storage.
@@ -19,7 +19,7 @@ By completing this lab, you will:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 A walkthrough of the **Azure Storage Static Website Lab** deployment.
 
@@ -66,7 +66,7 @@ Curl command showing **200 OK** response from the static site endpoint.
 
 ---
 
-## 🧹 Cleanup
+##  Cleanup
 
 When you finish the lab, delete the resource group to avoid ongoing charges.  
 This will remove the storage account and all associated resources.
