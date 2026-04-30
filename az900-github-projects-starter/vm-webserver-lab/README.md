@@ -1,12 +1,12 @@
-# 🚀 VM Webserver Lab (IaaS)
+#  VM Webserver Lab (IaaS)
 
-## 🎯 Goal
+##  Goal
 Deploy and host a web page from an Ubuntu Virtual Machine in Azure.  
 Practice configuring NSG rules, installing software remotely, and verifying service access.
 
 ---
 
-## ✅ Outcomes
+##  Outcomes
 By completing this lab, you will:
 
 - Provision an **Ubuntu Linux VM** in an allowed region (`eastus2`).
@@ -17,7 +17,7 @@ By completing this lab, you will:
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 A walkthrough of the Azure VM Webserver Lab deployment.
 
 ### 1. Resource Group Overview  
@@ -69,7 +69,7 @@ SSH into the VM to confirm the **Nginx** service is running.
 
 ---
 
-## 🧹 Cleanup
+##  Cleanup
 When you finish the lab, delete the resource group to avoid ongoing charges.  
 This removes the VM, NSG, NIC, Public IP, and all related resources.
 
